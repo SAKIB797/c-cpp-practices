@@ -1,7 +1,6 @@
 // Program for fibonacci series
 // fibonacci series means a number in this series is sum of two number before.
 #include <stdio.h>
-#include <math.h>
 int main()
 {
     int i, n, sum, first = 0, second = 1;
