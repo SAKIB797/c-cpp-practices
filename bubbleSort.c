@@ -21,7 +21,7 @@ int main()
         {
             if (arr[j] > arr[j + 1])
             {
-                // swap arry value
+                // swap array value
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -35,9 +35,9 @@ int main()
         printf(" %d", arr[i]);
     }
 
-    // Biggest element of arry
+    // Biggest element of array
     printf("\nBiggest number: %d", arr[size - 1]);
-    // smallest element of arry
+    // smallest element of array
     printf("\nSmallest number: %d\n", arr[0]);
 
     return 0;

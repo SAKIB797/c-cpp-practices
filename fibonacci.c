@@ -1,5 +1,5 @@
-// Program for fibonacci serise
-// fibonacci serise means a number in this seriese is sum of two number before.
+// Program for fibonacci series
+// fibonacci series means a number in this series is sum of two number before.
 #include <stdio.h>
 #include <math.h>
 int main()
