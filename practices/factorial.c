@@ -10,11 +10,6 @@ int main(int argc, char const *argv[])
     // statement for calculating the factorial value
     for (i = 1; i <= n; i++)
     {
-        if (n < 0)
-        {
-            break;
-        }
-
         fact *= i;
     }
 
