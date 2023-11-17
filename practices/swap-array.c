@@ -14,20 +14,20 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    /// print the orginal array
+    /// print the original array
     for (i = 0; i < n; i++)
     {
         printf("%d ", arr[i]);
     }
     printf("\n");
-    //// swaping the array numbers
+    //// swapping the array numbers
     for (i = 0; i <= (n - 1) / 2; i++)
     {
         temp = arr[i];
         arr[i] = arr[n - 1 - i];
         arr[n - 1 - i] = temp;
     }
-    /// print the swaped array
+    /// print the swapped array
     for (i = 0; i < n; i++)
     {
         printf("%d ", arr[i]);
