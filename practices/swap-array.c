@@ -21,7 +21,7 @@ int main()
     }
     printf("\n");
     //// swaping the array numbers
-    for (i = 0; i <= n / 2 - 1; i++)
+    for (i = 0; i <= (n - 1) / 2; i++)
     {
         temp = arr[i];
         arr[i] = arr[n - 1 - i];
