@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(int argc, char const *argv[])
+int main()
 {
     int i, fact = 1, n;
 

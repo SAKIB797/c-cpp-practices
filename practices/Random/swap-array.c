@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype.h>
 int main()
 {
     int i, temp, n;
@@ -32,6 +32,11 @@ int main()
     {
         printf("%d ", arr[i]);
     }
+
+char lowerr =f;
+char upper = toupper(lower);
+printf("%c",upper);
+
 
     return 0;
 }
